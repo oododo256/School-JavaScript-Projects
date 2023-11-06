@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background-color: aliceblue;
+    color: darkslategray;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  .title{
+    font-size: 32px;
+  }
+  .button {
+    background-color: #00a3d7; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+  }
+  

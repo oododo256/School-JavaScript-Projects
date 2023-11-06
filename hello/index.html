@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Temperature List</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Temperature List</h1>
+    <form>
+      <label for="temperature">Enter temperature:</label>
+      <input type="number" id="temperature" name="temperature">
+      <button type="button" onclick="addTemperature()">Add</button>
+    </form>
+    <ul id="temperatureList"></ul>
+    <p>Average temperature: <span id="averageTemperature"></span></p>
+    <script src="script.js"></script>
+  </body>
+</html>
